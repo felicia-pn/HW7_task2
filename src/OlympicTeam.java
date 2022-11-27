@@ -1,2 +1,8 @@
-package PACKAGE_NAME;public interface OlympicTeam {
+public interface OlympicTeam {
+
+    default void printTeamSize() {
+    }
+
+    default void printMedals() {
+    }
 }
